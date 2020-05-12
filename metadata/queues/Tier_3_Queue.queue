@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <email>tier3@example.com</email>
+    <name>Tier 3 Queue</name>
+    <queueMembers>
+        <users>
+            <user>bill.hzx4h3ctu4la.lvavdejjd968.6w4bzg2jclyc@grax6.demo</user>
+            <user>cindy.foqthdcitv9k.u4yhkn6gvgfr.mnbheqxbpvw4@grax6.demo</user>
+            <user>customer.qulfmaf3gjwb.a6lswjhlwfsi.kbi7fdfqzkqx@grax6.demo</user>
+            <user>dan@grax6.demo</user>
+            <user>elliot.6eioscyn4zd1.5am5cqyowjhk.pf75f9bkguho@grax6.demo</user>
+            <user>ely.n5hhq0lbfay4.mvuggnef0ikw.efzffn0qemnn@grax6.demo</user>
+            <user>partner.rlhrsdw5odis.hfwzhdmxsiag.nokyxfcqshkn@grax6.demo</user>
+            <user>quinton.ogzpogqekczi.zrb1zcycdbfs.bbjq2rxh4kuc@grax6.demo</user>
+            <user>sue.9afdirlighit.jvlw0ob3pddg.6b2zvqkpuvqk@grax6.demo</user>
+            <user>tim.eyq67hwdf6du.jngkmrxh9ues.poyd8lxdu4hw@grax6.demo</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>
