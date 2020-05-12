@@ -1,0 +1,3148 @@
+{
+  "actionOverrides": [],
+  "activateable": false,
+  "childRelationships": [
+    {
+      "cascadeDelete": false,
+      "childSObject": "FlowRecordRelation",
+      "deprecatedAndHidden": false,
+      "field": "RelatedRecordId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    }
+  ],
+  "compactLayoutable": false,
+  "createable": true,
+  "custom": false,
+  "customSetting": false,
+  "deletable": true,
+  "deprecatedAndHidden": false,
+  "feedEnabled": false,
+  "fields": [
+    {
+      "aggregatable": true,
+      "aiPredictionField": false,
+      "autoNumber": false,
+      "byteLength": 18,
+      "calculated": false,
+      "calculatedFormula": null,
+      "cascadeDelete": false,
+      "caseSensitive": false,
+      "compoundFieldName": null,
+      "controllerName": null,
+      "createable": false,
+      "custom": false,
+      "defaultValue": null,
+      "defaultValueFormula": null,
+      "defaultedOnCreate": true,
+      "dependentPicklist": false,
+      "deprecatedAndHidden": false,
+      "digits": 0,
+      "displayLocationInDecimal": false,
+      "encrypted": false,
+      "externalId": false,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "filteredLookupInfo": null,
+      "formulaTreatNullNumberAsZero": false,
+      "groupable": true,
+      "highScaleNumber": false,
+      "htmlFormatted": false,
+      "idLookup": true,
+      "inlineHelpText": null,
+      "label": "Macro Instruction ID",
+      "length": 18,
+      "mask": null,
+      "maskType": null,
+      "name": "Id",
+      "nameField": false,
+      "namePointing": false,
+      "nillable": false,
+      "permissionable": false,
+      "picklistValues": [],
+      "polymorphicForeignKey": false,
+      "precision": 0,
+      "queryByDistance": false,
+      "referenceTargetField": null,
+      "referenceTo": [],
+      "relationshipName": null,
+      "relationshipOrder": null,
+      "restrictedDelete": false,
+      "restrictedPicklist": false,
+      "scale": 0,
+      "searchPrefilterable": false,
+      "soapType": "tns:ID",
+      "sortable": true,
+      "type": "id",
+      "unique": false,
+      "updateable": false,
+      "writeRequiresMasterRead": false
+    },
+    {
+      "aggregatable": false,
+      "aiPredictionField": false,
+      "autoNumber": false,
+      "byteLength": 0,
+      "calculated": false,
+      "calculatedFormula": null,
+      "cascadeDelete": false,
+      "caseSensitive": false,
+      "compoundFieldName": null,
+      "controllerName": null,
+      "createable": false,
+      "custom": false,
+      "defaultValue": false,
+      "defaultValueFormula": null,
+      "defaultedOnCreate": true,
+      "dependentPicklist": false,
+      "deprecatedAndHidden": false,
+      "digits": 0,
+      "displayLocationInDecimal": false,
+      "encrypted": false,
+      "externalId": false,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "filteredLookupInfo": null,
+      "formulaTreatNullNumberAsZero": false,
+      "groupable": true,
+      "highScaleNumber": false,
+      "htmlFormatted": false,
+      "idLookup": false,
+      "inlineHelpText": null,
+      "label": "Deleted",
+      "length": 0,
+      "mask": null,
+      "maskType": null,
+      "name": "IsDeleted",
+      "nameField": false,
+      "namePointing": false,
+      "nillable": false,
+      "permissionable": false,
+      "picklistValues": [],
+      "polymorphicForeignKey": false,
+      "precision": 0,
+      "queryByDistance": false,
+      "referenceTargetField": null,
+      "referenceTo": [],
+      "relationshipName": null,
+      "relationshipOrder": null,
+      "restrictedDelete": false,
+      "restrictedPicklist": false,
+      "scale": 0,
+      "searchPrefilterable": false,
+      "soapType": "xsd:boolean",
+      "sortable": true,
+      "type": "boolean",
+      "unique": false,
+      "updateable": false,
+      "writeRequiresMasterRead": false
+    },
+    {
+      "aggregatable": true,
+      "aiPredictionField": false,
+      "autoNumber": true,
+      "byteLength": 765,
+      "calculated": false,
+      "calculatedFormula": null,
+      "cascadeDelete": false,
+      "caseSensitive": false,
+      "compoundFieldName": null,
+      "controllerName": null,
+      "createable": false,
+      "custom": false,
+      "defaultValue": null,
+      "defaultValueFormula": null,
+      "defaultedOnCreate": true,
+      "dependentPicklist": false,
+      "deprecatedAndHidden": false,
+      "digits": 0,
+      "displayLocationInDecimal": false,
+      "encrypted": false,
+      "externalId": false,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "filteredLookupInfo": null,
+      "formulaTreatNullNumberAsZero": false,
+      "groupable": false,
+      "highScaleNumber": false,
+      "htmlFormatted": false,
+      "idLookup": true,
+      "inlineHelpText": null,
+      "label": "Macro Instruction Name",
+      "length": 255,
+      "mask": null,
+      "maskType": null,
+      "name": "Name",
+      "nameField": true,
+      "namePointing": false,
+      "nillable": false,
+      "permissionable": false,
+      "picklistValues": [],
+      "polymorphicForeignKey": false,
+      "precision": 0,
+      "queryByDistance": false,
+      "referenceTargetField": null,
+      "referenceTo": [],
+      "relationshipName": null,
+      "relationshipOrder": null,
+      "restrictedDelete": false,
+      "restrictedPicklist": false,
+      "scale": 0,
+      "searchPrefilterable": false,
+      "soapType": "xsd:string",
+      "sortable": true,
+      "type": "string",
+      "unique": false,
+      "updateable": false,
+      "writeRequiresMasterRead": false
+    },
+    {
+      "aggregatable": true,
+      "aiPredictionField": false,
+      "autoNumber": false,
+      "byteLength": 0,
+      "calculated": false,
+      "calculatedFormula": null,
+      "cascadeDelete": false,
+      "caseSensitive": false,
+      "compoundFieldName": null,
+      "controllerName": null,
+      "createable": false,
+      "custom": false,
+      "defaultValue": null,
+      "defaultValueFormula": null,
+      "defaultedOnCreate": true,
+      "dependentPicklist": false,
+      "deprecatedAndHidden": false,
+      "digits": 0,
+      "displayLocationInDecimal": false,
+      "encrypted": false,
+      "externalId": false,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "filteredLookupInfo": null,
+      "formulaTreatNullNumberAsZero": false,
+      "groupable": false,
+      "highScaleNumber": false,
+      "htmlFormatted": false,
+      "idLookup": false,
+      "inlineHelpText": null,
+      "label": "Created Date",
+      "length": 0,
+      "mask": null,
+      "maskType": null,
+      "name": "CreatedDate",
+      "nameField": false,
+      "namePointing": false,
+      "nillable": false,
+      "permissionable": false,
+      "picklistValues": [],
+      "polymorphicForeignKey": false,
+      "precision": 0,
+      "queryByDistance": false,
+      "referenceTargetField": null,
+      "referenceTo": [],
+      "relationshipName": null,
+      "relationshipOrder": null,
+      "restrictedDelete": false,
+      "restrictedPicklist": false,
+      "scale": 0,
+      "searchPrefilterable": false,
+      "soapType": "xsd:dateTime",
+      "sortable": true,
+      "type": "datetime",
+      "unique": false,
+      "updateable": false,
+      "writeRequiresMasterRead": false
+    },
+    {
+      "aggregatable": true,
+      "aiPredictionField": false,
+      "autoNumber": false,
+      "byteLength": 18,
+      "calculated": false,
+      "calculatedFormula": null,
+      "cascadeDelete": false,
+      "caseSensitive": false,
+      "compoundFieldName": null,
+      "controllerName": null,
+      "createable": false,
+      "custom": false,
+      "defaultValue": null,
+      "defaultValueFormula": null,
+      "defaultedOnCreate": true,
+      "dependentPicklist": false,
+      "deprecatedAndHidden": false,
+      "digits": 0,
+      "displayLocationInDecimal": false,
+      "encrypted": false,
+      "externalId": false,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "filteredLookupInfo": null,
+      "formulaTreatNullNumberAsZero": false,
+      "groupable": true,
+      "highScaleNumber": false,
+      "htmlFormatted": false,
+      "idLookup": false,
+      "inlineHelpText": null,
+      "label": "Created By ID",
+      "length": 18,
+      "mask": null,
+      "maskType": null,
+      "name": "CreatedById",
+      "nameField": false,
+      "namePointing": false,
+      "nillable": false,
+      "permissionable": false,
+      "picklistValues": [],
+      "polymorphicForeignKey": false,
+      "precision": 0,
+      "queryByDistance": false,
+      "referenceTargetField": null,
+      "referenceTo": [
+        "User"
+      ],
+      "relationshipName": "CreatedBy",
+      "relationshipOrder": null,
+      "restrictedDelete": false,
+      "restrictedPicklist": false,
+      "scale": 0,
+      "searchPrefilterable": false,
+      "soapType": "tns:ID",
+      "sortable": true,
+      "type": "reference",
+      "unique": false,
+      "updateable": false,
+      "writeRequiresMasterRead": false
+    },
+    {
+      "aggregatable": true,
+      "aiPredictionField": false,
+      "autoNumber": false,
+      "byteLength": 0,
+      "calculated": false,
+      "calculatedFormula": null,
+      "cascadeDelete": false,
+      "caseSensitive": false,
+      "compoundFieldName": null,
+      "controllerName": null,
+      "createable": false,
+      "custom": false,
+      "defaultValue": null,
+      "defaultValueFormula": null,
+      "defaultedOnCreate": true,
+      "dependentPicklist": false,
+      "deprecatedAndHidden": false,
+      "digits": 0,
+      "displayLocationInDecimal": false,
+      "encrypted": false,
+      "externalId": false,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "filteredLookupInfo": null,
+      "formulaTreatNullNumberAsZero": false,
+      "groupable": false,
+      "highScaleNumber": false,
+      "htmlFormatted": false,
+      "idLookup": false,
+      "inlineHelpText": null,
+      "label": "Last Modified Date",
+      "length": 0,
+      "mask": null,
+      "maskType": null,
+      "name": "LastModifiedDate",
+      "nameField": false,
+      "namePointing": false,
+      "nillable": false,
+      "permissionable": false,
+      "picklistValues": [],
+      "polymorphicForeignKey": false,
+      "precision": 0,
+      "queryByDistance": false,
+      "referenceTargetField": null,
+      "referenceTo": [],
+      "relationshipName": null,
+      "relationshipOrder": null,
+      "restrictedDelete": false,
+      "restrictedPicklist": false,
+      "scale": 0,
+      "searchPrefilterable": false,
+      "soapType": "xsd:dateTime",
+      "sortable": true,
+      "type": "datetime",
+      "unique": false,
+      "updateable": false,
+      "writeRequiresMasterRead": false
+    },
+    {
+      "aggregatable": true,
+      "aiPredictionField": false,
+      "autoNumber": false,
+      "byteLength": 18,
+      "calculated": false,
+      "calculatedFormula": null,
+      "cascadeDelete": false,
+      "caseSensitive": false,
+      "compoundFieldName": null,
+      "controllerName": null,
+      "createable": false,
+      "custom": false,
+      "defaultValue": null,
+      "defaultValueFormula": null,
+      "defaultedOnCreate": true,
+      "dependentPicklist": false,
+      "deprecatedAndHidden": false,
+      "digits": 0,
+      "displayLocationInDecimal": false,
+      "encrypted": false,
+      "externalId": false,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "filteredLookupInfo": null,
+      "formulaTreatNullNumberAsZero": false,
+      "groupable": true,
+      "highScaleNumber": false,
+      "htmlFormatted": false,
+      "idLookup": false,
+      "inlineHelpText": null,
+      "label": "Last Modified By ID",
+      "length": 18,
+      "mask": null,
+      "maskType": null,
+      "name": "LastModifiedById",
+      "nameField": false,
+      "namePointing": false,
+      "nillable": false,
+      "permissionable": false,
+      "picklistValues": [],
+      "polymorphicForeignKey": false,
+      "precision": 0,
+      "queryByDistance": false,
+      "referenceTargetField": null,
+      "referenceTo": [
+        "User"
+      ],
+      "relationshipName": "LastModifiedBy",
+      "relationshipOrder": null,
+      "restrictedDelete": false,
+      "restrictedPicklist": false,
+      "scale": 0,
+      "searchPrefilterable": false,
+      "soapType": "tns:ID",
+      "sortable": true,
+      "type": "reference",
+      "unique": false,
+      "updateable": false,
+      "writeRequiresMasterRead": false
+    },
+    {
+      "aggregatable": true,
+      "aiPredictionField": false,
+      "autoNumber": false,
+      "byteLength": 0,
+      "calculated": false,
+      "calculatedFormula": null,
+      "cascadeDelete": false,
+      "caseSensitive": false,
+      "compoundFieldName": null,
+      "controllerName": null,
+      "createable": false,
+      "custom": false,
+      "defaultValue": null,
+      "defaultValueFormula": null,
+      "defaultedOnCreate": true,
+      "dependentPicklist": false,
+      "deprecatedAndHidden": false,
+      "digits": 0,
+      "displayLocationInDecimal": false,
+      "encrypted": false,
+      "externalId": false,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "filteredLookupInfo": null,
+      "formulaTreatNullNumberAsZero": false,
+      "groupable": false,
+      "highScaleNumber": false,
+      "htmlFormatted": false,
+      "idLookup": false,
+      "inlineHelpText": null,
+      "label": "System Modstamp",
+      "length": 0,
+      "mask": null,
+      "maskType": null,
+      "name": "SystemModstamp",
+      "nameField": false,
+      "namePointing": false,
+      "nillable": false,
+      "permissionable": false,
+      "picklistValues": [],
+      "polymorphicForeignKey": false,
+      "precision": 0,
+      "queryByDistance": false,
+      "referenceTargetField": null,
+      "referenceTo": [],
+      "relationshipName": null,
+      "relationshipOrder": null,
+      "restrictedDelete": false,
+      "restrictedPicklist": false,
+      "scale": 0,
+      "searchPrefilterable": false,
+      "soapType": "xsd:dateTime",
+      "sortable": true,
+      "type": "datetime",
+      "unique": false,
+      "updateable": false,
+      "writeRequiresMasterRead": false
+    },
+    {
+      "aggregatable": true,
+      "aiPredictionField": false,
+      "autoNumber": false,
+      "byteLength": 18,
+      "calculated": false,
+      "calculatedFormula": null,
+      "cascadeDelete": false,
+      "caseSensitive": false,
+      "compoundFieldName": null,
+      "controllerName": null,
+      "createable": true,
+      "custom": false,
+      "defaultValue": null,
+      "defaultValueFormula": null,
+      "defaultedOnCreate": false,
+      "dependentPicklist": false,
+      "deprecatedAndHidden": false,
+      "digits": 0,
+      "displayLocationInDecimal": false,
+      "encrypted": false,
+      "externalId": false,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "filteredLookupInfo": null,
+      "formulaTreatNullNumberAsZero": false,
+      "groupable": true,
+      "highScaleNumber": false,
+      "htmlFormatted": false,
+      "idLookup": false,
+      "inlineHelpText": null,
+      "label": "Macro ID",
+      "length": 18,
+      "mask": null,
+      "maskType": null,
+      "name": "MacroId",
+      "nameField": false,
+      "namePointing": false,
+      "nillable": false,
+      "permissionable": false,
+      "picklistValues": [],
+      "polymorphicForeignKey": false,
+      "precision": 0,
+      "queryByDistance": false,
+      "referenceTargetField": null,
+      "referenceTo": [
+        "Macro"
+      ],
+      "relationshipName": "Macro",
+      "relationshipOrder": null,
+      "restrictedDelete": false,
+      "restrictedPicklist": false,
+      "scale": 0,
+      "searchPrefilterable": false,
+      "soapType": "tns:ID",
+      "sortable": true,
+      "type": "reference",
+      "unique": false,
+      "updateable": false,
+      "writeRequiresMasterRead": false
+    },
+    {
+      "aggregatable": true,
+      "aiPredictionField": false,
+      "autoNumber": false,
+      "byteLength": 765,
+      "calculated": false,
+      "calculatedFormula": null,
+      "cascadeDelete": false,
+      "caseSensitive": false,
+      "compoundFieldName": null,
+      "controllerName": null,
+      "createable": true,
+      "custom": false,
+      "defaultValue": null,
+      "defaultValueFormula": null,
+      "defaultedOnCreate": false,
+      "dependentPicklist": false,
+      "deprecatedAndHidden": false,
+      "digits": 0,
+      "displayLocationInDecimal": false,
+      "encrypted": false,
+      "externalId": false,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "filteredLookupInfo": null,
+      "formulaTreatNullNumberAsZero": false,
+      "groupable": true,
+      "highScaleNumber": false,
+      "htmlFormatted": false,
+      "idLookup": false,
+      "inlineHelpText": null,
+      "label": "Operation",
+      "length": 255,
+      "mask": null,
+      "maskType": null,
+      "name": "Operation",
+      "nameField": false,
+      "namePointing": false,
+      "nillable": false,
+      "permissionable": false,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "select",
+          "validFor": null,
+          "value": "Select"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "set",
+          "validFor": null,
+          "value": "Set"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "insert",
+          "validFor": null,
+          "value": "Insert"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "submit",
+          "validFor": null,
+          "value": "Submit"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "close",
+          "validFor": null,
+          "value": "Close"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "if",
+          "validFor": null,
+          "value": "If"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "elseif",
+          "validFor": null,
+          "value": "ElseIf"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "else",
+          "validFor": null,
+          "value": "Else"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "endif",
+          "validFor": null,
+          "value": "EndIf"
+        }
+      ],
+      "polymorphicForeignKey": false,
+      "precision": 0,
+      "queryByDistance": false,
+      "referenceTargetField": null,
+      "referenceTo": [],
+      "relationshipName": null,
+      "relationshipOrder": null,
+      "restrictedDelete": false,
+      "restrictedPicklist": true,
+      "scale": 0,
+      "searchPrefilterable": false,
+      "soapType": "xsd:string",
+      "sortable": true,
+      "type": "picklist",
+      "unique": false,
+      "updateable": true,
+      "writeRequiresMasterRead": false
+    },
+    {
+      "aggregatable": true,
+      "aiPredictionField": false,
+      "autoNumber": false,
+      "byteLength": 765,
+      "calculated": false,
+      "calculatedFormula": null,
+      "cascadeDelete": false,
+      "caseSensitive": false,
+      "compoundFieldName": null,
+      "controllerName": null,
+      "createable": true,
+      "custom": false,
+      "defaultValue": null,
+      "defaultValueFormula": null,
+      "defaultedOnCreate": false,
+      "dependentPicklist": false,
+      "deprecatedAndHidden": false,
+      "digits": 0,
+      "displayLocationInDecimal": false,
+      "encrypted": false,
+      "externalId": false,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "filteredLookupInfo": null,
+      "formulaTreatNullNumberAsZero": false,
+      "groupable": true,
+      "highScaleNumber": false,
+      "htmlFormatted": false,
+      "idLookup": false,
+      "inlineHelpText": null,
+      "label": "Target",
+      "length": 255,
+      "mask": null,
+      "maskType": null,
+      "name": "Target",
+      "nameField": false,
+      "namePointing": false,
+      "nillable": true,
+      "permissionable": false,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Access Type",
+          "validFor": null,
+          "value": "Field.CollaborationGroup.CollaborationType"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Account Name",
+          "validFor": null,
+          "value": "Field.Contact.AccountId"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Account Name",
+          "validFor": null,
+          "value": "Field.Opportunity.AccountId"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Account Tab",
+          "validFor": null,
+          "value": "Tab.Account"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Asset Relationship Tab",
+          "validFor": null,
+          "value": "Tab.AssetRelationship"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Asset Tab",
+          "validFor": null,
+          "value": "Tab.Asset"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Campaign Tab",
+          "validFor": null,
+          "value": "Tab.Campaign"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Case Tab",
+          "validFor": null,
+          "value": "Tab.Case"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Channel Program Level Tab",
+          "validFor": null,
+          "value": "Tab.ChannelProgramLevel"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Channel Program Member Tab",
+          "validFor": null,
+          "value": "Tab.ChannelProgramMember"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Channel Program Tab",
+          "validFor": null,
+          "value": "Tab.ChannelProgram"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Chat Session Tab",
+          "validFor": null,
+          "value": "Tab.LiveAgentSession"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Chat Transcript Tab",
+          "validFor": null,
+          "value": "Tab.LiveChatTranscript"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Communication Subscription Channel Type Tab",
+          "validFor": null,
+          "value": "Tab.CommSubscriptionChannelType"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Communication Subscription Consent Tab",
+          "validFor": null,
+          "value": "Tab.CommSubscriptionConsent"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Communication Subscription Tab",
+          "validFor": null,
+          "value": "Tab.CommSubscription"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Communication Subscription Timing Tab",
+          "validFor": null,
+          "value": "Tab.CommSubscriptionTiming"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Contact Tab",
+          "validFor": null,
+          "value": "Tab.Contact"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Contract Line Item Tab",
+          "validFor": null,
+          "value": "Tab.ContractLineItem"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Contract Tab",
+          "validFor": null,
+          "value": "Tab.Contract"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Engagement Channel Type Tab",
+          "validFor": null,
+          "value": "Tab.EngagementChannelType"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Event Tab",
+          "validFor": null,
+          "value": "Tab.Event"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active FAQ Tab",
+          "validFor": null,
+          "value": "Tab.FAQ__kav"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Feed Item Tab",
+          "validFor": null,
+          "value": "Tab.FeedItem"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active GRAX Archive Process Tab",
+          "validFor": null,
+          "value": "Tab.grax__GRAX_Archive_Process__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active GRAX Data Record Id Tab",
+          "validFor": null,
+          "value": "Tab.grax__GRAX_Data_Record_Id__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active GRAX Data Record Tab",
+          "validFor": null,
+          "value": "Tab.grax__GRAX_Data_Record__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active GRAX Group GDR Tab",
+          "validFor": null,
+          "value": "Tab.grax__GRAX_GroupGDR__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active GRAX Helper Tab",
+          "validFor": null,
+          "value": "Tab.grax__GRAX_Helper__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active GRAX Schedule Process Tab",
+          "validFor": null,
+          "value": "Tab.grax__GRAX_Schedule_Process__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Group Tab",
+          "validFor": null,
+          "value": "Tab.CollaborationGroup"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active How To Tab",
+          "validFor": null,
+          "value": "Tab.How_To__kav"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Individual Tab",
+          "validFor": null,
+          "value": "Tab.Individual"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Lead Tab",
+          "validFor": null,
+          "value": "Tab.Lead"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Messaging Session Tab",
+          "validFor": null,
+          "value": "Tab.MessagingSession"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Messaging User Tab",
+          "validFor": null,
+          "value": "Tab.MessagingEndUser"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Object 500 Tab",
+          "validFor": null,
+          "value": "Tab.Object500__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Object Milestone Tab",
+          "validFor": null,
+          "value": "Tab.EntityMilestone"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Opportunity Contact Role Tab",
+          "validFor": null,
+          "value": "Tab.OpportunityContactRole"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Opportunity Tab",
+          "validFor": null,
+          "value": "Tab.Opportunity"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Order Tab",
+          "validFor": null,
+          "value": "Tab.Order"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Partner Fund Allocation Tab",
+          "validFor": null,
+          "value": "Tab.PartnerFundAllocation"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Partner Fund Claim Tab",
+          "validFor": null,
+          "value": "Tab.PartnerFundClaim"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Partner Fund Request Tab",
+          "validFor": null,
+          "value": "Tab.PartnerFundRequest"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Partner Marketing Budget Tab",
+          "validFor": null,
+          "value": "Tab.PartnerMarketingBudget"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Party Consent Tab",
+          "validFor": null,
+          "value": "Tab.PartyConsent"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Product Tab",
+          "validFor": null,
+          "value": "Tab.Product2"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Quote Tab",
+          "validFor": null,
+          "value": "Tab.Quote"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Service Contract Tab",
+          "validFor": null,
+          "value": "Tab.ServiceContract"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Social Post Tab",
+          "validFor": null,
+          "value": "Tab.SocialPost"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active SOS Session Tab",
+          "validFor": null,
+          "value": "Tab.SOSSession"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Task Tab",
+          "validFor": null,
+          "value": "Tab.Task"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object100 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject100__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object101 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject101__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object102 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject102__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object103 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject103__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object104 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject104__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object105 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject105__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object106 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject106__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object107 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject107__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object108 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject108__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object109 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject109__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object10 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject10__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object11 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject11__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object12 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject12__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object13 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject13__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object14 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject14__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object15 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject15__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object16 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject16__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object17 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject17__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object18 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject18__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object19 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject19__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object1 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject1__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object20 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject20__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object21 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject21__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object22 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject22__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object23 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject23__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object24 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject24__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object25 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject25__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object26 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject26__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object27 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject27__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object28 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject28__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object29 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject29__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object2 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject2__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object30 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject30__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object31 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject31__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object32 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject32__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object33 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject33__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object34 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject34__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object35 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject35__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object36 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject36__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object37 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject37__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object38 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject38__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object39 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject39__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object3 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject3__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object40 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject40__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object41 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject41__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object42 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject42__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object43 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject43__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object44 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject44__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object45 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject45__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object46 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject46__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object47 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject47__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object48 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject48__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object49 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject49__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object4 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject4__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object50 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject50__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object51 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject51__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object52 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject52__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object53 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject53__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object54 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject54__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object55 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject55__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object56 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject56__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object57 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject57__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object58 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject58__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object59 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject59__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object5 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject5__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object60 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject60__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object61 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject61__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object62 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject62__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object63 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject63__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object64 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject64__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object65 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject65__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object66 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject66__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object67 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject67__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object68 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject68__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object69 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject69__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object6 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject6__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object70 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject70__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object71 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject71__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object72 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject72__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object73 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject73__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object74 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject74__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object75 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject75__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object76 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject76__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object77 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject77__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object78 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject78__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object79 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject79__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object7 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject7__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object80 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject80__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object81 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject81__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object82 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject82__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object83 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject83__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object84 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject84__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object85 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject85__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object86 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject86__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object87 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject87__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object88 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject88__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object89 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject89__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object8 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject8__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object90 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject90__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object91 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject91__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object92 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject92__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object93 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject93__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object94 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject94__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object95 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject95__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object96 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject96__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object97 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject97__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object98 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject98__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object99 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject99__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Object9 Tab",
+          "validFor": null,
+          "value": "Tab.TestObject9__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active User Tab",
+          "validFor": null,
+          "value": "Tab.User"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Work Order Line Item Tab",
+          "validFor": null,
+          "value": "Tab.WorkOrderLineItem"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Work Order Tab",
+          "validFor": null,
+          "value": "Tab.WorkOrder"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Add Record Action",
+          "validFor": null,
+          "value": "QuickAction.CollaborationGroup.NewGroupRecord"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "All-Day Event",
+          "validFor": null,
+          "value": "Field.Event.IsAllDayEvent"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Allow customers",
+          "validFor": null,
+          "value": "Field.CollaborationGroup.CanHaveGuests"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Amount",
+          "validFor": null,
+          "value": "Field.Opportunity.Amount"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Assigned To",
+          "validFor": null,
+          "value": "Field.Task.OwnerId"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Assigned To",
+          "validFor": null,
+          "value": "Field.Event.OwnerId"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Attachments",
+          "validFor": null,
+          "value": "Field.OutgoingEmail.AttachmentIds.end"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Attachments",
+          "validFor": null,
+          "value": "Field.OutgoingEmail.ContentDocumentIds.end"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "BCC",
+          "validFor": null,
+          "value": "Field.OutgoingEmail.BccAddress"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "BCC",
+          "validFor": null,
+          "value": "Field.OutgoingEmail.BccAddress.begin"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "BCC",
+          "validFor": null,
+          "value": "Field.OutgoingEmail.BccAddress.end"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Body",
+          "validFor": null,
+          "value": "Field.CaseComment.CommentBody.cursor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Body",
+          "validFor": null,
+          "value": "Field.CaseComment.CommentBody.begin"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Body",
+          "validFor": null,
+          "value": "Field.CaseComment.CommentBody"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Body",
+          "validFor": null,
+          "value": "Field.CaseComment.CommentBody.end"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Case Owner",
+          "validFor": null,
+          "value": "Field.Case.OwnerId"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "CC",
+          "validFor": null,
+          "value": "Field.OutgoingEmail.CcAddress.end"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "CC",
+          "validFor": null,
+          "value": "Field.OutgoingEmail.CcAddress.begin"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "CC",
+          "validFor": null,
+          "value": "Field.OutgoingEmail.CcAddress"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Change Date Action",
+          "validFor": null,
+          "value": "QuickAction.Task.Defer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Change Date Action",
+          "validFor": null,
+          "value": "QuickAction.Task.Defer_0"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Change Date Action",
+          "validFor": null,
+          "value": "QuickAction.Task.Defer_1"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Change Priority Action",
+          "validFor": null,
+          "value": "QuickAction.Task.UpdatePriority_0"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Change Priority Action",
+          "validFor": null,
+          "value": "QuickAction.Task.UpdatePriority_1"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Change Priority Action",
+          "validFor": null,
+          "value": "QuickAction.Task.UpdatePriority"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Change Status Action",
+          "validFor": null,
+          "value": "QuickAction.Task.UpdateStatus"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Change Status Action",
+          "validFor": null,
+          "value": "QuickAction.Task.UpdateStatus_1"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Change Status Action",
+          "validFor": null,
+          "value": "QuickAction.Task.UpdateStatus_0"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Close Date",
+          "validFor": null,
+          "value": "Field.Opportunity.CloseDate"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Comments",
+          "validFor": null,
+          "value": "Field.Task.Description.cursor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Comments",
+          "validFor": null,
+          "value": "Field.Task.Description"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Comments",
+          "validFor": null,
+          "value": "Field.Task.Description.begin"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Comments",
+          "validFor": null,
+          "value": "Field.Task.Description.end"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Community Action",
+          "validFor": null,
+          "value": "QuickAction.Case.CaseComment"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Company",
+          "validFor": null,
+          "value": "Field.Lead.Company"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Company",
+          "validFor": null,
+          "value": "Field.Lead.Company.begin"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Company",
+          "validFor": null,
+          "value": "Field.Lead.Company.end"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Create New Task Action",
+          "validFor": null,
+          "value": "QuickAction.FeedItem.NewTaskFromFeedItem"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Description",
+          "validFor": null,
+          "value": "Field.CollaborationGroup.Description"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Description",
+          "validFor": null,
+          "value": "Field.Case.Description.end"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Description",
+          "validFor": null,
+          "value": "Field.Case.Description.begin"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Description",
+          "validFor": null,
+          "value": "Field.CollaborationGroup.Description.begin"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Description",
+          "validFor": null,
+          "value": "Field.Case.Description.cursor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Description",
+          "validFor": null,
+          "value": "Field.Case.Description"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Description",
+          "validFor": null,
+          "value": "Field.CollaborationGroup.Description.cursor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Description",
+          "validFor": null,
+          "value": "Field.CollaborationGroup.Description.end"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Due Date",
+          "validFor": null,
+          "value": "Field.Task.ActivityDate"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Edit Comments Action",
+          "validFor": null,
+          "value": "QuickAction.Task.EditDescription_0"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Edit Comments Action",
+          "validFor": null,
+          "value": "QuickAction.Task.EditDescription_1"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Edit Comments Action",
+          "validFor": null,
+          "value": "QuickAction.Task.EditDescription"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Email",
+          "validFor": null,
+          "value": "Field.Lead.Email"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Email",
+          "validFor": null,
+          "value": "Field.Contact.Email"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Email Action",
+          "validFor": null,
+          "value": "QuickAction.Quote.SendEmail"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Email Action",
+          "validFor": null,
+          "value": "QuickAction.SendEmail"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Email Template",
+          "validFor": null,
+          "value": "Field.OutgoingEmail.EmailTemplateId"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "End",
+          "validFor": null,
+          "value": "Field.Event.EndDateTime"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "First Name",
+          "validFor": null,
+          "value": "Field.Contact.FirstName.end"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "First Name",
+          "validFor": null,
+          "value": "Field.Contact.FirstName.begin"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "First Name",
+          "validFor": null,
+          "value": "Field.Lead.FirstName"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "First Name",
+          "validFor": null,
+          "value": "Field.Contact.FirstName"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "First Name",
+          "validFor": null,
+          "value": "Field.Lead.FirstName.begin"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "First Name",
+          "validFor": null,
+          "value": "Field.Lead.FirstName.end"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "From",
+          "validFor": null,
+          "value": "Field.OutgoingEmail.ValidatedFromAddress"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Group",
+          "validFor": null,
+          "value": "Field.CollaborationGroupRecord.CollaborationGroupId"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Group",
+          "validFor": null,
+          "value": "Field.CollaborationGroupMember.CollaborationGroupId"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Group Member Role",
+          "validFor": null,
+          "value": "Field.CollaborationGroupMember.CollaborationRole"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "HTML Body",
+          "validFor": null,
+          "value": "Field.OutgoingEmail.HtmlBody.begin"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "HTML Body",
+          "validFor": null,
+          "value": "Field.OutgoingEmail.HtmlBody.end"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "HTML Body",
+          "validFor": null,
+          "value": "Field.OutgoingEmail.HtmlBody"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "HTML Body",
+          "validFor": null,
+          "value": "Field.OutgoingEmail.HtmlBody.cursor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Last Name",
+          "validFor": null,
+          "value": "Field.Contact.LastName.begin"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Last Name",
+          "validFor": null,
+          "value": "Field.Contact.LastName.end"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Last Name",
+          "validFor": null,
+          "value": "Field.Lead.LastName.end"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Last Name",
+          "validFor": null,
+          "value": "Field.Lead.LastName"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Last Name",
+          "validFor": null,
+          "value": "Field.Contact.LastName"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Last Name",
+          "validFor": null,
+          "value": "Field.Lead.LastName.begin"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Location",
+          "validFor": null,
+          "value": "Field.Event.Location"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Location",
+          "validFor": null,
+          "value": "Field.Event.Location.begin"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Location",
+          "validFor": null,
+          "value": "Field.Event.Location.end"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Log a Call Action",
+          "validFor": null,
+          "value": "QuickAction.LogACall"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Member",
+          "validFor": null,
+          "value": "Field.CollaborationGroupMember.MemberId"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Message",
+          "validFor": null,
+          "value": "Field.SocialPost.Content.end"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Message",
+          "validFor": null,
+          "value": "Field.SocialPost.Content"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Message",
+          "validFor": null,
+          "value": "Field.SocialPost.Content.cursor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Message",
+          "validFor": null,
+          "value": "Field.SocialPost.Content.begin"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Message Type",
+          "validFor": null,
+          "value": "Field.SocialPost.MessageType"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Messaging User Name",
+          "validFor": null,
+          "value": "Field.MessagingEndUser.Name.end"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Messaging User Name",
+          "validFor": null,
+          "value": "Field.MessagingEndUser.Name"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Messaging User Name",
+          "validFor": null,
+          "value": "Field.MessagingEndUser.Name.begin"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Name",
+          "validFor": null,
+          "value": "Field.CollaborationGroup.Name.end"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Name",
+          "validFor": null,
+          "value": "Field.Task.WhoId"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Name",
+          "validFor": null,
+          "value": "Field.CollaborationGroup.Name.begin"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Name",
+          "validFor": null,
+          "value": "Field.Event.WhoId"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Name",
+          "validFor": null,
+          "value": "Field.CollaborationGroup.Name"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "New Contact Action",
+          "validFor": null,
+          "value": "QuickAction.NewContact"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "New Event Action",
+          "validFor": null,
+          "value": "QuickAction.NewEvent"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "New Group Action",
+          "validFor": null,
+          "value": "QuickAction.NewGroup"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "New Group Member Action",
+          "validFor": null,
+          "value": "QuickAction.CollaborationGroup.NewGroupMember"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "New Lead Action",
+          "validFor": null,
+          "value": "QuickAction.NewLead"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "New Opportunity Action",
+          "validFor": null,
+          "value": "QuickAction.NewOpportunity"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "New Task Action",
+          "validFor": null,
+          "value": "QuickAction.NewTask"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Opportunity Name",
+          "validFor": null,
+          "value": "Field.Opportunity.Name.begin"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Opportunity Name",
+          "validFor": null,
+          "value": "Field.Opportunity.Name"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Opportunity Name",
+          "validFor": null,
+          "value": "Field.Opportunity.Name.end"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Owner",
+          "validFor": null,
+          "value": "Field.LiveChatTranscript.OwnerId"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Phone",
+          "validFor": null,
+          "value": "Field.Contact.Phone"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Phone",
+          "validFor": null,
+          "value": "Field.Lead.Phone"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Priority",
+          "validFor": null,
+          "value": "Field.Task.Priority"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Priority",
+          "validFor": null,
+          "value": "Field.Case.Priority"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Record",
+          "validFor": null,
+          "value": "Field.CollaborationGroupRecord.RecordId"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Related To",
+          "validFor": null,
+          "value": "Field.Event.WhatId"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Related To",
+          "validFor": null,
+          "value": "Field.OutgoingEmail.RelatedToId"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Related To",
+          "validFor": null,
+          "value": "Field.Task.WhatId"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Request Time",
+          "validFor": null,
+          "value": "Field.LiveChatTranscript.RequestTime"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Salutation",
+          "validFor": null,
+          "value": "Field.Lead.Salutation"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Salutation",
+          "validFor": null,
+          "value": "Field.Contact.Salutation"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Social Action",
+          "validFor": null,
+          "value": "QuickAction.SocialPost.SocialPublisher"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Social Action",
+          "validFor": null,
+          "value": "QuickAction.Case.SocialPublisher"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Social Action",
+          "validFor": null,
+          "value": "QuickAction.Lead.SocialPublisher"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Stage",
+          "validFor": null,
+          "value": "Field.Opportunity.StageName"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Start",
+          "validFor": null,
+          "value": "Field.Event.StartDateTime"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Status",
+          "validFor": null,
+          "value": "Field.Case.Status"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Status",
+          "validFor": null,
+          "value": "Field.Task.Status"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Status",
+          "validFor": null,
+          "value": "Field.LiveChatTranscript.Status"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Subject",
+          "validFor": null,
+          "value": "Field.OutgoingEmail.Subject"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Subject",
+          "validFor": null,
+          "value": "Field.OutgoingEmail.Subject.begin"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Subject",
+          "validFor": null,
+          "value": "Field.Case.Subject"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Subject",
+          "validFor": null,
+          "value": "Field.Case.Subject.begin"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Subject",
+          "validFor": null,
+          "value": "Field.Event.Subject"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Subject",
+          "validFor": null,
+          "value": "Field.Case.Subject.end"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Subject",
+          "validFor": null,
+          "value": "Field.OutgoingEmail.Subject.end"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Subject",
+          "validFor": null,
+          "value": "Field.Task.Subject"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Title",
+          "validFor": null,
+          "value": "Field.Contact.Title.end"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Title",
+          "validFor": null,
+          "value": "Field.Lead.Title.begin"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Title",
+          "validFor": null,
+          "value": "Field.Contact.Title"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Title",
+          "validFor": null,
+          "value": "Field.Lead.Title.end"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Title",
+          "validFor": null,
+          "value": "Field.Lead.Title"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Title",
+          "validFor": null,
+          "value": "Field.Contact.Title.begin"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "To",
+          "validFor": null,
+          "value": "Field.OutgoingEmail.ToAddress.end"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "To",
+          "validFor": null,
+          "value": "Field.OutgoingEmail.ToAddress.begin"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "To",
+          "validFor": null,
+          "value": "Field.OutgoingEmail.ToAddress"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Update Case Action",
+          "validFor": null,
+          "value": "QuickAction.Case._LightningUpdateCase"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Update Chat Transcript Action",
+          "validFor": null,
+          "value": "QuickAction.LiveChatTranscript._LightningUpdateLiveChatTranscript"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Update Contact Action",
+          "validFor": null,
+          "value": "QuickAction.Contact._LightningRelatedContact"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Update Messaging User Action",
+          "validFor": null,
+          "value": "QuickAction.MessagingEndUser._UpdateMessagingEndUser"
+        }
+      ],
+      "polymorphicForeignKey": false,
+      "precision": 0,
+      "queryByDistance": false,
+      "referenceTargetField": null,
+      "referenceTo": [],
+      "relationshipName": null,
+      "relationshipOrder": null,
+      "restrictedDelete": false,
+      "restrictedPicklist": true,
+      "scale": 0,
+      "searchPrefilterable": false,
+      "soapType": "xsd:string",
+      "sortable": true,
+      "type": "picklist",
+      "unique": false,
+      "updateable": true,
+      "writeRequiresMasterRead": false
+    },
+    {
+      "aggregatable": false,
+      "aiPredictionField": false,
+      "autoNumber": false,
+      "byteLength": 12000,
+      "calculated": false,
+      "calculatedFormula": null,
+      "cascadeDelete": false,
+      "caseSensitive": false,
+      "compoundFieldName": null,
+      "controllerName": null,
+      "createable": true,
+      "custom": false,
+      "defaultValue": null,
+      "defaultValueFormula": null,
+      "defaultedOnCreate": false,
+      "dependentPicklist": false,
+      "deprecatedAndHidden": false,
+      "digits": 0,
+      "displayLocationInDecimal": false,
+      "encrypted": false,
+      "externalId": false,
+      "extraTypeInfo": "plaintextarea",
+      "filterable": true,
+      "filteredLookupInfo": null,
+      "formulaTreatNullNumberAsZero": false,
+      "groupable": false,
+      "highScaleNumber": false,
+      "htmlFormatted": false,
+      "idLookup": false,
+      "inlineHelpText": null,
+      "label": "Value",
+      "length": 4000,
+      "mask": null,
+      "maskType": null,
+      "name": "Value",
+      "nameField": false,
+      "namePointing": false,
+      "nillable": true,
+      "permissionable": false,
+      "picklistValues": [],
+      "polymorphicForeignKey": false,
+      "precision": 0,
+      "queryByDistance": false,
+      "referenceTargetField": null,
+      "referenceTo": [],
+      "relationshipName": null,
+      "relationshipOrder": null,
+      "restrictedDelete": false,
+      "restrictedPicklist": false,
+      "scale": 0,
+      "searchPrefilterable": false,
+      "soapType": "xsd:string",
+      "sortable": true,
+      "type": "textarea",
+      "unique": false,
+      "updateable": true,
+      "writeRequiresMasterRead": false
+    },
+    {
+      "aggregatable": true,
+      "aiPredictionField": false,
+      "autoNumber": false,
+      "byteLength": 45,
+      "calculated": false,
+      "calculatedFormula": null,
+      "cascadeDelete": false,
+      "caseSensitive": false,
+      "compoundFieldName": null,
+      "controllerName": null,
+      "createable": true,
+      "custom": false,
+      "defaultValue": null,
+      "defaultValueFormula": null,
+      "defaultedOnCreate": false,
+      "dependentPicklist": false,
+      "deprecatedAndHidden": false,
+      "digits": 0,
+      "displayLocationInDecimal": false,
+      "encrypted": false,
+      "externalId": false,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "filteredLookupInfo": null,
+      "formulaTreatNullNumberAsZero": false,
+      "groupable": true,
+      "highScaleNumber": false,
+      "htmlFormatted": false,
+      "idLookup": false,
+      "inlineHelpText": null,
+      "label": "Value Record ID",
+      "length": 15,
+      "mask": null,
+      "maskType": null,
+      "name": "ValueRecord",
+      "nameField": false,
+      "namePointing": false,
+      "nillable": true,
+      "permissionable": false,
+      "picklistValues": [],
+      "polymorphicForeignKey": false,
+      "precision": 0,
+      "queryByDistance": false,
+      "referenceTargetField": null,
+      "referenceTo": [],
+      "relationshipName": null,
+      "relationshipOrder": null,
+      "restrictedDelete": false,
+      "restrictedPicklist": false,
+      "scale": 0,
+      "searchPrefilterable": false,
+      "soapType": "xsd:string",
+      "sortable": true,
+      "type": "string",
+      "unique": false,
+      "updateable": true,
+      "writeRequiresMasterRead": false
+    },
+    {
+      "aggregatable": true,
+      "aiPredictionField": false,
+      "autoNumber": false,
+      "byteLength": 0,
+      "calculated": false,
+      "calculatedFormula": null,
+      "cascadeDelete": false,
+      "caseSensitive": false,
+      "compoundFieldName": null,
+      "controllerName": null,
+      "createable": true,
+      "custom": false,
+      "defaultValue": null,
+      "defaultValueFormula": null,
+      "defaultedOnCreate": false,
+      "dependentPicklist": false,
+      "deprecatedAndHidden": false,
+      "digits": 9,
+      "displayLocationInDecimal": false,
+      "encrypted": false,
+      "externalId": false,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "filteredLookupInfo": null,
+      "formulaTreatNullNumberAsZero": false,
+      "groupable": true,
+      "highScaleNumber": false,
+      "htmlFormatted": false,
+      "idLookup": false,
+      "inlineHelpText": null,
+      "label": "Sort Order",
+      "length": 0,
+      "mask": null,
+      "maskType": null,
+      "name": "SortOrder",
+      "nameField": false,
+      "namePointing": false,
+      "nillable": false,
+      "permissionable": false,
+      "picklistValues": [],
+      "polymorphicForeignKey": false,
+      "precision": 0,
+      "queryByDistance": false,
+      "referenceTargetField": null,
+      "referenceTo": [],
+      "relationshipName": null,
+      "relationshipOrder": null,
+      "restrictedDelete": false,
+      "restrictedPicklist": false,
+      "scale": 0,
+      "searchPrefilterable": false,
+      "soapType": "xsd:int",
+      "sortable": true,
+      "type": "int",
+      "unique": false,
+      "updateable": true,
+      "writeRequiresMasterRead": false
+    }
+  ],
+  "hasSubtypes": false,
+  "isSubtype": false,
+  "keyPrefix": "0Ji",
+  "label": "Macro Instruction",
+  "labelPlural": "Macro Instructions",
+  "layoutable": false,
+  "listviewable": null,
+  "lookupLayoutable": null,
+  "mergeable": false,
+  "mruEnabled": false,
+  "name": "MacroInstruction",
+  "namedLayoutInfos": [],
+  "networkScopeFieldName": null,
+  "queryable": true,
+  "recordTypeInfos": [
+    {
+      "active": true,
+      "available": true,
+      "defaultRecordTypeMapping": true,
+      "developerName": "Master",
+      "master": true,
+      "name": "Master",
+      "recordTypeId": "012000000000000AAA",
+      "urls": {
+        "layout": "/services/data/v43.0/sobjects/MacroInstruction/describe/layouts/012000000000000AAA"
+      }
+    }
+  ],
+  "replicateable": true,
+  "retrieveable": true,
+  "searchLayoutable": false,
+  "searchable": false,
+  "supportedScopes": [
+    {
+      "label": "All macro instructions",
+      "name": "everything"
+    },
+    {
+      "label": "My macro instructions",
+      "name": "mine"
+    },
+    {
+      "label": "Queue owned macro instructions",
+      "name": "queue_owned"
+    },
+    {
+      "label": "My team's macro instructions",
+      "name": "team"
+    },
+    {
+      "label": "User owned macro instructions",
+      "name": "user_owned"
+    }
+  ],
+  "triggerable": false,
+  "undeletable": true,
+  "updateable": true,
+  "urls": {
+    "rowTemplate": "/services/data/v43.0/sobjects/MacroInstruction/{ID}",
+    "defaultValues": "/services/data/v43.0/sobjects/MacroInstruction/defaultValues?recordTypeId&fields",
+    "describe": "/services/data/v43.0/sobjects/MacroInstruction/describe",
+    "sobject": "/services/data/v43.0/sobjects/MacroInstruction"
+  }
+}
